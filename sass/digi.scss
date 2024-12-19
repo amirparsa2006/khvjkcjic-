@@ -1,0 +1,140 @@
+@use "all";
+@use "ali";
+
+.border-none {
+    border: none !important;
+    outline: none !important;
+    outline: transparent !important;
+}
+.main-nav{
+   
+    a{
+        padding: 1rem 0.4rem;
+    }
+}
+.shadow{
+    box-shadow: 2px 2px 11px rgba(0, 0, 0, 0.889);
+    position: sticky;
+}
+.child-cat {
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 80%;
+    box-shadow: -6px 11px 18px #e9e9e9;
+    overflow-y: scroll;
+    height: 200px;
+    right: 20px;
+    direction: ltr;
+    top:3.8rem;
+
+    &>li {
+        &>ul {
+            
+            position: absolute;
+            top: 0px;
+            right: 6rem;
+            &>li {
+                &>div {
+                    display: flex;
+                    flex-wrap: wrap;
+                    &>ul {
+                        width: 25%;
+                        padding: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.parent-cat:hover {
+    .child-cat {
+        display: block;
+    }
+}
+.abcdffght{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.logohjhjh{
+
+    width: 50rem;
+}
+.imghjh{
+    width: 100%;
+    margin-top: 0.2rem;
+    border-radius: 1px;
+}
+.ggffh{
+    object-fit: cover;
+    width: 6rem;
+    padding: 0.5rem;
+    border-radius: 10cm;
+
+    
+
+   
+}
+.mt-2{
+    margin-top: 1rem;
+    border-radius: 9px;
+}
+
+.mt22{
+    margin-top: 1rem;
+}
+.jffjfjfjf{
+    margin-top: 0.1rem;
+    padding: 1rem;
+    width: 10%;
+    text-decoration: none;
+   text-align: center;
+    list-style: none;
+    color: #000000c6;
+}
+.dgdg{
+       
+    & a{
+        padding: 0.5rem;
+    
+    }
+}
+.divso{
+    
+    background-color: rgba(128, 128, 128, 0.364);
+    border-radius: 20px;
+    height: 8rem;
+   
+   
+}
+.butoop{
+    background-color: rgb(10, 217, 10);
+    color: #e9e9e9;
+    text-decoration: none;
+    list-style: none; 
+    margin-right: 2rem;
+    height: 2rem;
+    align-items: center;
+    border-radius: 20px;
+}
+.parsa{
+    align-items: center;
+   
+}
+.zafaafa{
+    position: static;
+}
+// .hddhdd{
+//     // & a{
+//     //     width: 100rem;
+//     // }
+// }
+.mt23{
+    margin-top: 3rem;
+    & a{
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+}
